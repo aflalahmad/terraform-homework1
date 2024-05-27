@@ -5,7 +5,8 @@ This Terraform project sets up Azure infrastructure including virtual networks (
 
 ## Architecture Diagram
 
-![Architecture Diagram](images/architecture.png)
+![architecture](https://github.com/aflalahmad/terraform-homework1/assets/105841418/9a0209f3-376b-4d7d-a476-11f3dc5158be)
+
 
 ```hcl
 
