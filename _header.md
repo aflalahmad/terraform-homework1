@@ -4,6 +4,6 @@ This Terraform project sets up Azure infrastructure including virtual networks (
 
 ## Architecture Diagram
 
-![Architecture Diagram](images/homework architecture.png)
+![Architecture Diagram](images/homework1 architecture.png)
 
-For editing or viewing the source file, see the [homework architecture.png](images/homework architecture.png).
+For editing or viewing the source file, see the [homework1 architecture.drawio](images/homework1 architecture.drawio).
