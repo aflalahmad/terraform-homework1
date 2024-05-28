@@ -99,7 +99,7 @@ The following input variables are required:
 
 ### <a name="input_vnets"></a> [vnets](#input\_vnets)
 
-Description: n/a
+Description: The virtual network value must not be empty
 
 Type:
 
@@ -111,6 +111,7 @@ map(object({
         newbits = number
         netnum = number
       }))
+      
   }))
 ```
 
@@ -120,7 +121,7 @@ The following input variables are optional (have default values):
 
 ### <a name="input_nsg_count"></a> [nsg\_count](#input\_nsg\_count)
 
-Description: n/a
+Description: The count value must be in number
 
 Type: `string`
 
@@ -128,7 +129,7 @@ Default: `4`
 
 ### <a name="input_rules_file"></a> [rules\_file](#input\_rules\_file)
 
-Description: n/a
+Description: The rules files must be saved in .csv file name.
 
 Type: `string`
 
@@ -140,19 +141,19 @@ The following outputs are exported:
 
 ### <a name="output_associate"></a> [associate](#output\_associate)
 
-Description: n/a
+Description: The name or ID of the associate resource.
 
 ### <a name="output_nsg"></a> [nsg](#output\_nsg)
 
-Description: n/a
+Description: The name or ID of the network security group(NSG) .
 
 ### <a name="output_rg"></a> [rg](#output\_rg)
 
-Description: n/a
+Description: The name of the Resource Group (RG).
 
 ### <a name="output_vnet"></a> [vnet](#output\_vnet)
 
-Description: n/a
+Description: The name of the Virtual Network (VNet).
 
 ## Modules
 
