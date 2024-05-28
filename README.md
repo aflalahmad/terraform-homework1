@@ -5,8 +5,7 @@ This Terraform project sets up Azure infrastructure including virtual networks (
 
 ## Architecture Diagram
 
-![architecture](https://github.com/aflalahmad/terraform-homework1/assets/105841418/9a0209f3-376b-4d7d-a476-11f3dc5158be)
-
+![Architecture Diagram]("C:\Users\hp\Documents\architecture.png")
 
 ```hcl
 
@@ -137,7 +136,23 @@ Default: `"rules-20.csv"`
 
 ## Outputs
 
-No outputs.
+The following outputs are exported:
+
+### <a name="output_associate"></a> [associate](#output\_associate)
+
+Description: n/a
+
+### <a name="output_nsg"></a> [nsg](#output\_nsg)
+
+Description: n/a
+
+### <a name="output_rg"></a> [rg](#output\_rg)
+
+Description: n/a
+
+### <a name="output_vnet"></a> [vnet](#output\_vnet)
+
+Description: n/a
 
 ## Modules
 
