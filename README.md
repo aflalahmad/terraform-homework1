@@ -5,8 +5,6 @@ This Terraform project sets up Azure infrastructure including virtual networks (
 
 ## Architecture Diagram
 
-![Architecture Diagram]("C:\Users\hp\Documents\architecture.png")
-
 ```hcl
 
 data "azurerm_resource_group" "rg" {
